@@ -1,12 +1,9 @@
 const employee1 = {
   name: "John",
   age: 20,
-  scores:{
-    english: undefined,
-  },
 };
 
-const result1 = employee1.scores.english;
+const result1 = employee1.scores?.english;
 console.log(result1);
 
 const employee2 = {
@@ -14,7 +11,6 @@ const employee2 = {
   age: 50,
   scores: {
     math: 40,
-    english: undefined,
   },
 };
 
