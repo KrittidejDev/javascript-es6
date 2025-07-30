@@ -10,5 +10,7 @@ let studentProfile = {
 let additionalHobbies = ["Painting", "Yoga"];
 
 // Start coding here
+let newStudentProfile = {};
+newStudentProfile = {...studentProfile, hobbies: [...studentProfile.hobbies, ...additionalHobbies]};
 
 console.log(newStudentProfile);
